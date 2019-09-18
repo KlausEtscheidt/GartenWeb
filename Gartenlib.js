@@ -1,4 +1,5 @@
 ﻿///////////////////////////////////////////////////////////////////
+
 function onopen() {
 	console.log("opened! Sending: "+data);
     socket.send(data);
